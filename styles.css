@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.sphere {
+  fill: rgba(0, 232, 255, 1);
+  fill-opacity:0.5
+}
+
+.country {
+  stroke: black;
+  stroke-width: 0.2px;
+}
+
+.country:hover {
+  fill: rgba(188, 188, 188, 1);
+}
+
+.tick text {
+  font-size: 1.2em;
+  fill: #444444;
+  font-family: sans-serif;
+}
+
+.tick circle, .country_circle {
+  stroke: black;
+  fill:rgba(255, 125, 108, 0.7);
+  fill-opacity:0.8;
+  stroke-width:0.3;
+  pointer-events: none;
+}
+
+.legend-title{
+	font-size: 1.6em;
+  fill: #444444;
+  font-family: sans-serif;
+}
+
+h2{
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+div{
+  margin-top:10px;
+  display:flex;
+}
+
+a:hover{
+  transform:translateY(-2px);
+  color:rgb(112, 111, 111); 
+}
+
+a{
+  font-weight: 600;
+  font-size: 1rem;
+  color:black;
+  transition: transform linear 0.05s;
+  will-change: transform;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
+
+.link-icon{
+  color:blue;
+  position: relative;
+  top:1px;
+}
